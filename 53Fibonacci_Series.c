@@ -2,11 +2,11 @@
 #include<stdio.h>
 int main()
 {
-    int n,a=0,b=1,c;
+    int i,n,a=0,b=1,c;
     printf("\n Enter the range: ");
     scanf("%d",&n);
     printf("%d\t%d",a,b);
-    while(c<n)
+    for(i=3;i<=n;i++)
     {
         c=a+b;
         printf("\t%d",c);
